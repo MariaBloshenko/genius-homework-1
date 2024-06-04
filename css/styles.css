@@ -1,0 +1,132 @@
+:root {
+  --color-primary-dark: #011c44;
+  --color-primary-light: #2b7fff;
+  --color-secondary-light: #ffffff;
+  --color-secondary-middle: #747272;
+  --color-secondary-dark: #000000;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto/Roboto/Roboto-Regular.ttf') format('ttf');
+}
+
+/* Base */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-primary-dark);
+}
+
+address {
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Button */
+.button {
+  width: 186px;
+  height: 44px;
+  color: var(--color-secondary-light);
+  font-weight: 600;
+  font-size: 16px;
+  background-color: var(--color-primary-light);
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: var(--color-primary-dark);
+  border: 2px solid var(--color-primary-light);
+}
+
+/* Link */
+.link {
+  color: var(--color-primary-dark);
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-primary-light);
+  font-weight: 700;
+}
+
+/* Hero section */
+.hero-title {
+  color: var(--color-primary-light);
+  font-weight: 700;
+  text-align: left;
+  font-size: 140px;
+  text-transform: capitalize;
+}
+
+.about-title,
+.advantages-title,
+.procedures-title,
+.contact-title {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+/* About section */
+.about-title .accent {
+  color: var(--color-primary-light);
+  text-transform: capitalize;
+}
+
+.about-text {
+  font-size: 22px;
+}
+
+.about-text .accent {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+/* Advantages section */
+.advantages-title .accent {
+  color: var(--color-primary-light);
+}
+
+.advantages-text {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--color-secondary-dark);
+}
+
+/* Procedures section */
+.procedures-title .accent {
+  color: var(--color-primary-light);
+}
+
+/* Contact section */
+.contact-title .accent {
+  color: var(--color-primary-light);
+}
+
+/* Footer */
+footer {
+  background-color: var(--color-primary-dark);
+}
+
+.footer-nav {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-secondary-light);
+  text-decoration: none;
+}
+
+.footer-nav:hover {
+  color: var(--color-primary-light);
+}
+
+.adress-copyright {
+  font-size: 13px;
+  color: var(--color-secondary-middle);
+}
